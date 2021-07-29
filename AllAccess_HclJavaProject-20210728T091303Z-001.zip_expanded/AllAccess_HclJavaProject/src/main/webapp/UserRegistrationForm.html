@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Registration Form</title>
+<style type="text/css">
+@import
+url("Styling.css")
+</style>
+</head>
+<body>
+	<center>
+		<h1>User Registration Form</h1>
+		<form>
+			<table border="0.5" align="center">
+				<tr>
+					<td>Full Name</td>
+					<td><input type="text" name="userfullname"
+						placeholder="Enter your full name" title="Enter full name"
+						required /></td>
+				</tr>
+				<tr>
+					<td></td>
+				</tr>
+				<tr>
+					<td>UserName</td>
+					<td><input type="text" name="userusername"
+						placeholder="Enter your user name" title="Enter user name"
+						required /></td>
+				</tr>
+				<tr>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td><input type="radio" name="gender" value="Male" required>Male<br>
+						<input type="radio" name="gender" value="Female" required>Female</td>
+				</tr>
+				<tr>
+					<td></td>
+				</tr>
+				<tr>
+					<td>MobileNo</td>
+					<td><input type="text" name="Enter Contact number"
+						placeholder="Enter your Contact Number"
+						title="Enter Contact Number" required /></td>
+				</tr>
+				<tr>
+					<td></td>
+				</tr>
+				<tr>
+					<td>EmailId</td>
+					<td><input type="text" name="emailaddress"
+						placeholder="Enter your Email Address" title="Enter Email Address"
+						required /></td>
+				</tr>
+				<tr>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Profile Image</td>
+					<td><input type="file" name="profilephoto"
+						title="Upload Profile Photo" /></td>
+				</tr>
+				<tr>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" name="userpassword"
+						placeholder="Enter your Password" title="Enter password" required /></td>
+				</tr>
+				<tr>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Confirm Password</td>
+					<td><input type="password" name="userconfirmpassword"
+						placeholder="Enter your Confirm Password"
+						title="Enter confirm password" required /></td>
+				</tr>
+				<tr>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" name="Submit" value="Submit" /> <input
+						type="submit" name="Reset" value="Reset" /></td>
+				</tr>
+			</table>
+			<a href="UserLogin.html">Already have an account! Please Login</a>
+		</form>
+	</center>
+</body>
+</html>

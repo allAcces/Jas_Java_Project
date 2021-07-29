@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+body
+{
+	background-color:light-gray;
+}
+
+tr
+{
+	color: black;
+}
+
+input:focus
+{
+	background-color:yellow;
+}

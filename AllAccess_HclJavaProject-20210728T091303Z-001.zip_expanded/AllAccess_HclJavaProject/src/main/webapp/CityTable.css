@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+body {
+	background-color: #EEEEEE;
+	font-family: "Open Sans";
+	font-size: 16px;
+	text-align: center;
+}
+
+.center {
+	margin: auto;
+	width: 425px;
+}
+
+.selector {
+	font-family: "Open Sans";
+	font-size: 18px;
+	width: 425px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: center;
+}
+
+.heading {
+	font-family: "Open Sans";
+	font-size: 32px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #F00;
+}
